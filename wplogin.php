@@ -130,7 +130,7 @@ function wp_reg_form() {
     }
  }
 add_shortcode('wpregform', 'wp_reg_form');
-// [agentregform]
+
 
 
 ob_start();
@@ -180,13 +180,6 @@ if (isset($_POST['wpl_submit'])) {
 wpl_form();
 }
 
-// function flat_ui_kit() {
-// wp_enqueue_style('bootstrap-css', plugins_url('bootstrap/css/bootstrap.css', __FILE__));
-// wp_enqueue_style('flat-ui-kit', plugins_url('css/flat-ui.css', __FILE__));
-
-// }
-
-// add_action('wp_enqueue_scripts', 'flat_ui_kit');
 
 function wplogin_shortcode() {
 ob_start();
