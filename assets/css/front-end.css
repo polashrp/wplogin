@@ -1,0 +1,86 @@
+/* agent registration form */
+.cp_arform-title {
+ color: #333;
+ display: block;
+ font-weight: 800;
+}
+.cp_arform-field input[type="text"], 
+.cp_arform-field input[type="email"], 
+.cp_arform-field input[type="url"], 
+.cp_arform-field input[type="password"], 
+.cp_arform-field input[type="search"], 
+.cp_arform-field input[type="number"], 
+.cp_arform-field input[type="tel"], 
+.cp_arform-field input[type="range"], 
+.cp_arform-field input[type="date"], 
+.cp_arform-field input[type="month"], 
+.cp_arform-field input[type="week"], 
+.cp_arform-field input[type="time"], 
+.cp_arform-field input[type="datetime"], 
+.cp_arform-field input[type="datetime-local"], 
+.cp_arform-field input[type="color"], 
+.cp_arform-field textarea {
+ background: #fff linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) repeat scroll 0 0;
+ border: 1px solid #bbb;
+ border-radius: 3px;
+ color: #666;
+ display: block;
+ padding: 0.7em;
+ width: 100%;
+ margin-bottom: 10px;
+}
+.cp_arform-field input[type="text"]:focus, 
+.cp_arform-field input[type="email"]:focus, 
+.cp_arform-field input[type="url"]:focus, 
+.cp_arform-field input[type="password"]:focus, 
+.cp_arform-field input[type="search"]:focus, 
+.cp_arform-field input[type="number"]:focus, 
+.cp_arform-field input[type="tel"]:focus, 
+.cp_arform-field input[type="range"]:focus, 
+.cp_arform-field input[type="date"]:focus, 
+.cp_arform-field input[type="month"]:focus, 
+.cp_arform-field input[type="week"]:focus, 
+.cp_arform-field input[type="time"]:focus, 
+.cp_arform-field input[type="datetime"]:focus, 
+.cp_arform-field input[type="datetime-local"]:focus, 
+.cp_arform-field input[type="color"]:focus, 
+.cp_arform-field textarea:focus {
+ border-color: #2f96fd;
+ color: #222;
+}
+.cp_arform-field input[type="file"] {
+ margin-bottom: 10px;
+}
+.cp_arform-field label {
+ color: #333;
+ display: block;
+ font-weight: 600;
+ margin-bottom: 0.5em;
+}
+.arform-bottom button, 
+.arform-bottom input[type="button"], 
+.arform-bottom input[type="submit"] {
+ background-color: #45ea9b;
+ border: 0 none;
+ border-radius: 2px;
+ box-shadow: none;
+ color: #fff;
+cursor: pointer;
+ display: inline-block;
+ font-size: 0.875rem;
+ font-weight: 600;
+ line-height: 1;
+ padding: 1em 2em;
+ text-shadow: none;
+ transition: background 0.2s ease 0s;
+ text-transform: uppercase;
+ box-shadow: 1px 2px 2px 0 #6f6f6f;
+}
+.arform-bottom button:hover, 
+.arform-bottom button:focus, 
+.arform-bottom input[type="button"]:hover, 
+.arform-bottom input[type="button"]:focus, 
+.arform-bottom input[type="submit"]:hover, 
+.arform-bottom input[type="submit"]:focus {
+ background: #2f96fd none repeat scroll 0 0;
+}
